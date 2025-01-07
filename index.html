@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Developer Mary Hardy | Portfolio</title>
+    
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script src="https://kit.fontawesome.com/2e60ef228e.js" crossorigin="anonymous"></script>
   </head>
   <body class="open-sans-normal">
     <header class="header">
@@ -14,7 +16,7 @@
           <li><a class="dark-2" href="#">Portfolio</a></li>
           <li><a class="dark-2" href="#">Blog</a></li>
           <li>
-            <a href="#"><button class="btn-primary">Hire Me</button></a>
+            <a href="#"><button class="btn-primary"><i class="fa-solid fa-code"></i> Hire Me</button></a>
           </li>
         </ul>
       </nav>
@@ -28,10 +30,10 @@
           </p>
           <button class="btn-primary">
             <a class="" href="ui/developer-porttfolio.pdf" download
-              >Download CV</a
+              ><i class="fa-solid fa-download"></i> Download CV</a
             >
           </button>
-          <button class="btn-secondary">Contact</button>
+          <button class="btn-secondary"><i class="fa-solid fa-phone"></i> Contact</button>
         </div>
         <img src="images/hardy.png" alt="Mary hardy" />
       </div>
@@ -203,14 +205,14 @@
           </div>
         </div>
         <div class="text-center download-cv">
-          <button class="btn-primary btn-center">Download CV</button>
+          <button class="btn-primary btn-center"><i class="fa-solid fa-download"></i>  Download CV</button>
         </div>
       </section>
     </main>
     <!-- footer section -->
     <footer class="secondary-bg">
       <div class="footer-column">
-        <h3 class="section-title">Lets Connect</h3>
+        <h3 class="footer-column-left">Lets Connect</h3>
         <p>
           Please fill out the form on this section to contact with me or call
           between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
@@ -226,6 +228,15 @@
             ><img src="images/icons/twitter.png" alt="Twitter"
           /></a>
         </div>
+      </div>
+      <div class="footer-column">
+        <h3 class="footer-column-right">Let's Message me</h3>
+        <form action="">
+          <input type="text" name="name" id="" placeholder="Your Name">
+          <input type="email" name="email" id="" placeholder="Your Email">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <input class="btn-primary" type="submit" value="Submit">
+        </form>
       </div>
     </footer>
   </body>
